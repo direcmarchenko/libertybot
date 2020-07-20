@@ -2,6 +2,8 @@ import config
 import telebot
 from telebot import types
 import links, vili
+import os 
+port = int (os.environ.get («PORT», 5000))
 
 #from contact import User
 
