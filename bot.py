@@ -1,6 +1,6 @@
 import config
 import telebot
-import types
+from telebot import types
 import links, vili
 
 #from contact import User
